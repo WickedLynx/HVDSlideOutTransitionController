@@ -13,7 +13,7 @@
 
 // MARK: Initialisation
 
-- (instancetype)initWithDirection:(HVDSlideOutTransitionControllerDirection)direction delegate:(UIViewController <HVDSlideOutTransitionControllerDelegate> *)delegate {
+- (instancetype)initWithDirection:(HVDSlideOutTransitionControllerDirection)direction delegate:(id <HVDSlideOutTransitionControllerDelegate>)delegate {
     self = [super init];
     if (self != nil) {
         _direction = direction;
